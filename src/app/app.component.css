@@ -1,0 +1,5 @@
+div {
+  border: 5px;
+  background-image:linear-gradient(to left, rgb(255, 106, 168), rgb(255, 224, 167), rgb(130, 255, 207), rgb(167, 215, 255));
+  text-align: center;
+}

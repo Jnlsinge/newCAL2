@@ -1,0 +1,12 @@
+<section class>
+  <div class="d-grid gap-2 col-6 mx-auto">
+  <button (click)="Add()" type="button" class="btn btn-dark">+</button>
+  <button (click)="Subtract()" type="button" class="btn btn-warning">-</button>
+</div>
+  <button (click)="Multiply()" type="button" class="btn btn-info">x</button>
+  <button (click)="Divide()" type="button" class="btn btn-danger">÷</button>
+
+<div>
+  <app-result [result]="answer"> </app-result>
+</div>
+</section>
